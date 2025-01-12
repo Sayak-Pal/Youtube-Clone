@@ -1,0 +1,71 @@
+.youtube{
+    margin-top: 30px;
+   display: grid; 
+   
+   column-gap: 16px;
+   row-gap: 40px;
+   }
+   @media (max-width:750px){
+    .youtube{
+        grid-template-columns: 1fr 1fr;
+    }
+
+   }
+   @media (min-width:751px) and (max-width:999px){
+    .youtube{
+        grid-template-columns: 1fr 1fr 1fr  ;
+    }
+   }
+   @media (min-width:1000px){
+    .youtube{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+   }
+   
+   .thumbnail{
+       width: 100%;
+   } 
+   
+   .thumbnail-row{
+       margin-bottom: px;
+       position: relative;
+   }
+   .video-time{
+    position: absolute;
+    bottom: 8px;
+    right: 10px;
+    color: white;
+    background-color: black;
+    font-family: Roboto , Arial;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 2px 4px 2px 4px;
+    border-radius: 5px;
+    }
+   .fypinfo{
+       display: grid;
+       grid-template-columns: 50px 1fr;
+   }
+   .ppf{
+       border-radius: 50px;
+       width: 36px;
+   }
+   .heading{
+       margin-top:0px;
+       vertical-align: top;
+       font-weight: 500;
+       font-size: 14px;
+       line-height: 20px;
+
+       margin-bottom: 10px;
+       
+   }
+   .name,.stats{
+       font-size: 13px;
+       color: rgb(96, 96, 96);
+
+   }
+   .name{
+       margin-bottom: 4px;
+
+   }
