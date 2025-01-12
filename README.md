@@ -34,4 +34,4 @@ This project is a basic recreation of the YouTube homepage using HTML and CSS. I
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository_url>
+   git clone <https://github.com/Sayak-Pal/Youtube-Clone.git>
